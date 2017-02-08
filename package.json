@@ -1,0 +1,40 @@
+{
+  "name": "node-adaptive-threshold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/adaptive-threshold.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "zeros": "^1.0.0"
+  },
+  "devDependencies": {
+    "get-pixels": "^3.3.0",
+    "save-pixels": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "fujiharuka/node-adaptive-threshold",
+  "keywords": [
+    "threshold",
+    "ndarray",
+    "image"
+  ],
+  "author": {
+    "name": "Fuji Haruka",
+    "email": "fizzyjohn316@gmail.com",
+    "url": "https://github.com/FujiHaruka"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fujiharuka/node-adaptive-threshold/issues"
+  },
+  "homepage": "https://github.com/fujiharuka/node-adaptive-threshold#readme",
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
