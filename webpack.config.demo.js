@@ -14,9 +14,7 @@ module.exports = {
         include: __dirname,
         exclude: /node_modules/,
         query: {
-          presets: [ 'es2015' ],
-          babelrc: false,
-          compact: false,
+          babelrc: true,
           sourceRoot: __dirname
         }
       }

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/adaptive-threshold.js",
+  "browser": "shims/adaptive-threshold.js",
   "directories": {
     "example": "examples",
     "test": "test"
@@ -20,7 +21,9 @@
   },
   "scripts": {
     "test": "mocha",
-    "build": "webpack --config webpack.config.demo.js"
+    "build:shim": "babel -d shims lib",
+    "build:demo": "webpack --config webpack.config.demo.js",
+    "build": "npm run build:shim && npm run build:demo"
   },
   "repository": "fujiharuka/node-adaptive-threshold",
   "keywords": [
