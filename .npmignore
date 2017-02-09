@@ -30,3 +30,5 @@ tmp
 examples
 docs
 test
+webpack.config.demo.js
+yarn.lock
