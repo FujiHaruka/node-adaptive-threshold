@@ -1,6 +1,6 @@
 # node-adaptive-threshold
 
-Adaptive Threshold in JavaScript.
+Adaptive Threshold in JavaScript. Both in Node.js and browser.
 
 + [Demo](https://fujiharuka.github.io/node-adaptive-threshold/demo.html)
 
