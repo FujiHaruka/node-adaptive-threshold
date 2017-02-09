@@ -2,7 +2,7 @@
 
 Adaptive Threshold in JavaScript.
 
-+ [Demo](https://fujiharuka.github.io/adaptive-threshold/demo.html)
++ [Demo](https://fujiharuka.github.io/node-adaptive-threshold/demo.html)
 
 ## Install
 
