@@ -1,5 +1,5 @@
 {
-  "name": "node-adaptive-threshold",
+  "name": "adaptive-threshold",
   "version": "1.0.0",
   "description": "",
   "main": "lib/adaptive-threshold.js",
