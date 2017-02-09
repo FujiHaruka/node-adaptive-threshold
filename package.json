@@ -11,11 +11,16 @@
     "zeros": "^1.0.0"
   },
   "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
     "get-pixels": "^3.3.0",
-    "save-pixels": "^2.3.4"
+    "save-pixels": "^2.3.4",
+    "webpack": "^2.2.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "webpack --config webpack.config.demo.js"
   },
   "repository": "fujiharuka/node-adaptive-threshold",
   "keywords": [

@@ -2,6 +2,8 @@
 
 Adaptive Threshold in JavaScript.
 
++ [Demo](https://fujiharuka.github.io/adaptive-threshold/demo.html)
+
 ## Install
 
 ```

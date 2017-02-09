@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>adaptive-threshold demo</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css">
+    <style>
+      html, body {
+        margin: 0;
+        color: #666;
+      }
+      .demo-body-wrap {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1em;
+        box-sizing: border-box;
+      }
+      .demo-body {
+        max-width: 660px;
+        width: 100%;
+        padding: 0 10px;
+      }
+      h1 {
+        font-weight: 100;
+      }
+      .button-xlarge {
+        font-size: 150%;
+      }
+    </style>
+    <script src="demo.bundle.js"></script>
+  </head>
+  <body>
+    <div class="demo-body-wrap">
+      <div class="demo-body">
+        <h1>adaptive-threshold demo</h1>
+        <form class="pure-form pure-form-aligned">
+          <fieldset>
+            <div class="pure-control-group">
+              <label for="option-compensation">Compensation</label>
+              <input id="option-compensation" type="number" max="20" min="0" step="1" value="7"/>
+            </div>
+            <div class="pure-control-group">
+              <label for="option-size">Size</label>
+              <input id="option-size" type="number" max="20" min="0" step="1" value="7"/>
+            </div>
+            <div class="pure-controls">
+              <button class="button-xlarge pure-button pure-button-primary" id="threshold-button">Threshold</button>
+            </div>
+          </fieldset>
+        </form>
+        <div id="canvas-wrap"></div>
+      </div>
+    </div>
+  </body>
+</html>
