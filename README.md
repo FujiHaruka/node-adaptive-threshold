@@ -29,3 +29,13 @@ getPixels('src.png', (err, pixels) => {
   savePixels(thresholded, 'png').pipe(fs.createWriteStream('dist.png'))
 })
 ```
+
+## API
+
+### `adaptiveThreshold(pixels[, options])`
+
+Returns a thresholded ndarray.
+
+* `pixels` - an ndarray whose shape is [width, height, channels].
+* `options.size` - the size of neighbourhood area.
+* `options.compensation` - a constant which is subtracted from the mean.
