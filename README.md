@@ -12,7 +12,7 @@ $ npm install adaptive-threshold
 
 ## Usage
 
-I made this as an [ndarray](https://github.com/scijs/ndarray) module. So, the pimplest usage is to use this with [get-pixels](https://github.com/scijs/get-pixels) and [save-pixels](https://github.com/scijs/save-pixels).
+I made it as an [ndarray](https://github.com/scijs/ndarray) module. So, the simplest usage is with [get-pixels](https://github.com/scijs/get-pixels) and [save-pixels](https://github.com/scijs/save-pixels) as below.
 
 ```js
 const fs = require('fs')
